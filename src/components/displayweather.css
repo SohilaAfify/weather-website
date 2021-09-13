@@ -1,0 +1,80 @@
+.displayweather {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 30px;
+  }
+  
+  .displayweather .maincard {
+    width: 500px;
+    margin-top: 26px;
+    align-self: center;
+    padding: 50px;
+    border-radius: 15px;
+    position: relative;
+    background: white;
+    border: 1px solid white;
+  }
+  
+  .displayweather .maincard .cardtitle {
+    position: absolute;
+    top: 10px;
+    left: 35%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+  
+  .displayweather .maincard .cardsubtitle {
+    position: absolute;
+    left: 38%;
+    color: grey;
+    margin-top: -10px;
+  }
+  .displayweather h1 {
+    font-size: 5rem;
+    margin: -10px;
+    text-align: center;
+    
+  }
+  
+  .displayweather .weather-icon {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left:70%
+  }
+  
+  .displayweather .weather-main {
+    position: absolute;
+    top: 120px;
+    left:73%;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  .displayweather .weather-description {
+    text-align: center;
+    font-size: 1.4rem;
+    color: grey;
+  }
+  .displayweather .weatherdetails {
+    display: grid;
+    grid-template-rows: auto;
+    color: white;
+    
+  }
+  
+  h4 {
+    text-align: left;
+    margin-right: 30px;
+    font-size: 1.2rem;
+  }
+  
+  td {
+    border-bottom: 2px solid white;
+  }
+  
+  .displayweather .weatherdetails span {
+    font-size: 1.2rem;
+  }
